@@ -1,0 +1,17 @@
+{
+  "name": "jobtread-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for JobTread - Citystone Builders",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
