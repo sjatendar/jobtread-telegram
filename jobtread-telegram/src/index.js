@@ -28,7 +28,11 @@ async function paveQuery(queryObj) {
     return response.json();
 }
 
-const ORG_ID = process.env.JOBTREAD_ORG_ID || '22NmLCnfViW4';
+const const ORG_ID = process.env.JOBTREAD_ORG_ID || '22NmLCnfViW4';
+
+async function getOrgId() {
+  return ORG_ID;
+}
 
 async function listJobs(size = 25) {
     const data = await paveQuery({
